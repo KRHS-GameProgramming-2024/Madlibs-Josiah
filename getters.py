@@ -32,24 +32,22 @@ def getWord(prompt, debug = False):
         word = input(prompt)
         goodinput = True
         if isSwear (word):
-            goodinput = false
-            print ("DONT USE THAT *$%@#&% LANGUAGE WITH ME YOUNG MAN!, do something else")
+            goodinput = False
+            print ("DONT USE THAT *$%@#&% LANGUAGE")
       
       
     return word
-    
-def isSwear(word, debug = False): 
-    if debug: print ("isSwear Function")
-    if word in swearlist:
-        return True
-    else:
-        swearlist = ["poop",
-                     "pee"]
+
+        
         
         
 
 def isSwear(word, debug = False): 
     if debug: print("isSwear Function")
-    if word.lower()is swearlist:
+    if word.lower()in swearlist:
         return True
+    else:
+        return False
         
+swearlist = ["poop",
+             "pee"]

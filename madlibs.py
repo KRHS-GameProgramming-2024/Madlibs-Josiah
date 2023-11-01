@@ -22,6 +22,7 @@ def madlibs (debug = False):
             exit(); 
         elif choice == "1":
             print(Story1())
+            print("/n")
             input("press enter to continue ")
 
 
