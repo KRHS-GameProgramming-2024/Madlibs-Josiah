@@ -16,7 +16,16 @@ def getMainMenuoption(debug = False):
             option == "story1"):
                 option = "1"
                 goodinput = True
-            
+        
+         elif (option == "2" or
+            option == "two" or
+            option == "story 2" or
+            option == "story2"):
+                option = "2"
+                goodinput = True
+        
+        elif (option == "upupdowndownleftrightleftrightbastart"):
+             print ("congrats youve unlocked the easter egg")
         
         else:
             print("please make a valid choice")
@@ -38,7 +47,6 @@ def getWord(prompt, debug = False):
       
     return word
 
-        
         
         
 
