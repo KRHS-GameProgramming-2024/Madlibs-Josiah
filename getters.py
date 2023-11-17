@@ -17,7 +17,7 @@ def getMainMenuoption(debug = False):
                 option = "1"
                 goodinput = True
         
-         elif (option == "2" or
+        elif (option == "2" or
             option == "two" or
             option == "story 2" or
             option == "story2"):
