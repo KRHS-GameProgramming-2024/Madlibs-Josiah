@@ -25,8 +25,8 @@ def madlibs (debug = False):
             print(Story1())
             print("/n")
             input("press enter to continue ")
-        elif choice=="2"
-        print (Story2())
+        elif choice=="2":
+            print (Story2())
 
 
 

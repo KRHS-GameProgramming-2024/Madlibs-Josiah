@@ -27,7 +27,7 @@ def Story1 (debug = False):
     out+=" I want to quit, but its the only place within walking distance because I dont have a car."
     out+=" I'm trying to get a " +vehicle 
     out+=" so I can leave this place so I can achive my dream of being a " +carrer
-    out+=" But I cant because im stuck here and have no way to leave " 
+    out+=" But I cant because im stuck at " +place+ " and have no way to leave " 
     out+=" I can't take this kind of stress and torement for a " +age
     out+=" year old. I hope im able to get out of here soon."
     
